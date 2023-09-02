@@ -217,8 +217,8 @@ namespace MS.TestApp
             //}
 
 
-            object obj = 12;
-            int x = 55;
+            //object obj = 12;
+            //int x = 55;
             //if(obj is string str)
             //{
             //    Console.WriteLine(str);
@@ -237,12 +237,21 @@ namespace MS.TestApp
             //    Console.WriteLine("True1");
             //}
 
-            if(obj is var str)
+            object obj = "Test";
+
+            if(obj is string str)
             {
-                Console.WriteLine(str);
+                // do something
             }
 
-            Console.WriteLine(str.GetType());
+            Console.WriteLine(str);
+
+            if (obj is var str1)
+            {
+                // do something
+            }
+
+            Console.WriteLine(str1);
 
 
             /*
