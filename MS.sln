@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRTestProject", "Signa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try_Catch", "Try_Catch\Try_Catch.csproj", "{35E1B447-41A1-43EE-9223-96FD1226F480}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{28D75FF9-1869-495F-9A1E-91925308DAC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{35E1B447-41A1-43EE-9223-96FD1226F480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35E1B447-41A1-43EE-9223-96FD1226F480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35E1B447-41A1-43EE-9223-96FD1226F480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D75FF9-1869-495F-9A1E-91925308DAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D75FF9-1869-495F-9A1E-91925308DAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D75FF9-1869-495F-9A1E-91925308DAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D75FF9-1869-495F-9A1E-91925308DAC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

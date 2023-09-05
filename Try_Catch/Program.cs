@@ -60,32 +60,7 @@
 
             //}
             
-            try
-            {
-                //opeen connect
-                // do something
-                int x = 0;
-                int y = 15;
-                int re = y / x;
-            
-
-
-            }
-            catch (Exception ex)
-            {
-
-                switch (ex)
-                {
-                    case DivideByZeroException:
-                        Console.WriteLine("Divide");
-                        break;
-                    case FormatException:
-                        Console.WriteLine("Format");
-                        break;
-                    default:
-                        break;
-                }
-            }
+         
 
 
 
