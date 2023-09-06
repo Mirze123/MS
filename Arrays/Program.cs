@@ -1,4 +1,6 @@
 ﻿using System.Text;
+using System.Collections;
+
 
 namespace Arrays
 {
@@ -78,8 +80,8 @@ namespace Arrays
 
             //var arr1 = Array.CreateInstance(typeof(int), 14);
 
-            int[] numbers = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-            int[] num2 = numbers;
+            //int[] numbers = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //int[] num2 = numbers;
             //ar nums2 = numbers[5..7];
 
             //ArraySegment<int> myArrSegment = new ArraySegment<int>(numbers);
@@ -114,8 +116,7 @@ namespace Arrays
 
             //verbatim
 
-            string str1 = "a";
-            string str2 = "a";
+
 
             //string result = "My name" +
             //    ""
@@ -141,13 +142,46 @@ namespace Arrays
 
             //byte result = (byte)str1.CompareTo(str2);
 
-            
+
             //StringBuilder sb  = new StringBuilder();
             //sb.Append("Hello");
             //sb.Append("World");
             //Console.WriteLine(sb.ToString());
 
             //sb.Append(str1).Append(;
+
+            //string str = default; //==> ramda yer tutmur
+            //string str1 = " "; // ==> ramda yer tutur
+
+            //if(string.IsNullOrWhiteSpace(str))
+            //{
+            //    Console.WriteLine("String is null or empty");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Do your operation");
+            //}
+
+            //string test = "Codelandia";
+            //foreach (int i in 10)
+            //{
+
+            //}
+
+            ArrayList arrayList = new ArrayList();
+
+            arrayList.Add(1);
+            arrayList.Add(2);
+            arrayList.Add(3);
+            arrayList.Add(4);
+            arrayList.Add(5);
+
+           
+            MyClass myClass = new MyClass();
+            myClass.MyMethod();
+            
+    
+
 
         }
     }
