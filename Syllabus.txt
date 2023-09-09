@@ -1,0 +1,85 @@
+﻿Modul 1. (C# Fundamental)
+
+Dərs – 1 – Back-end Proqlamlaşdırmaya giriş.Back-end haqqında     ilkin məlumatlar.C# nədir?
+1)C# haqqında ümumi məlumat
+2) .NET nədir?
+3).NET Framework və .NET Core haqqında məlumatlar
+4)Kod işləmə prinsipi
+
+Dərs – 2- CLR,CİL və JİT haqqında məlumatlar
+1)CLR nədir?
+2)CİL nədir?
+3)JİT nədir?
+
+Dərs – 3 - Dəyişkənlər və data tipləri
+1)Dəyişkənlər nədir və necə istifadə olunur
+2)byte,short,int,long,float,double,decimal tiplər
+3)Boolean tiplər
+4)char,string tiplər
+
+Dərs – 4 - Operatorlar
+1)Aritmetik operatorlar barədə nəzəri və praktiki məlumat
+2) Bitwise operatorlar barədə nəzəri və praktiki məlumat
+3)Assignment Operatorlar barədə nəzəri və praktiki məlumat
+4)Comparison Operatorlar barədə nəzəri və praktiki məlumat
+5)Logical Operatorlar barədə nəzəri və praktiki məlumat
+
+Dərs 5 - Conditional statement-lər
+1)If-else if – else statement
+2)Shorthand If-else Ternary operator
+3)switch case statetement,break keyword
+
+Dərs – 6 – Loops
+1)While loop
+2)For Loop
+3)Do while loop
+4) Nested loops
+5)break və continue keyword
+
+Dərs – 7 – Arraylar
+1)Arraylar nədir? Nə üçün istifadə olunur
+2)Arraylar üzərində loop
+3)Sorting Arrays
+4)MultiDimensional Array-lar
+
+Dərs – 8 – Sorting Algorithms
+1)Bubble sort
+2) Selection Sort
+3) Quick sort
+4)Binary search sort
+5) İnsertion sort
+
+Dərs- 9 - Reference and Value Types
+1)Stack və Heap  haqqında nəzəri məlumatlar
+2)Stack nədir?
+3) Heap nədir?
+4)Deep copy və Shallow copy barədə nəzəri və praktiki yanaşma
+
+Dərs – 10 - Boxing and UnBoxing,Type Conversions
+1)Implicit Conversion
+2)Explicit Conversion
+3)User-defined Conversion
+4)Conversion with Helper Classes
+5) Boxing nədir?
+6)Unboxing nədir?
+
+Dərs – 11 - Debugging nədir?, Metodlar.Metod overloading və metod overriding
+1)Metod imzaları (Method signatures)
+2) Method Access
+3)Method parameters and arguments
+4) Passing by reference vs. passing by value
+5) Expression body definitions
+6) Debugging nədir?
+7) Debug edərkən kritik nöqtələr
+
+Dərs – 12- Praktiki
+1) Keçilənlər əsasında test imtahanı və testin müzakirəsi
+
+Dərs – 5 - try-catch mexanizması və exception-handling
+1)throw keywordu nədir?
+2)try catch bloku
+3)catch bloku ilə xətaları handle etmə
+4) when exception filter
+5)try-finally statement
+6)try-catch-finally statement
+7)Exception sinifi ilə tanışlıq
