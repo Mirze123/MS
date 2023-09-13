@@ -42,12 +42,6 @@ namespace SortingAlgorithms
             }
             i++;
             (array[i], array[j]) = (array[j], array[i]);
-            foreach (var item in array)
-            {
-                Console.Write(item + " ");
-            }
-            Console.WriteLine();
-            Console.WriteLine(pivod);
             return i;
 
         }
