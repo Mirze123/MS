@@ -5,10 +5,12 @@
         static void Main(string[] args)
         {
             int[] myArray = { 3,4,1,0,2};
-            int[] myArray1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-            myArray1 = myArray;
-
+            var sortedArray = QuickSort.Test();
+            foreach (var item in sortedArray)
+            {
+                Console.WriteLine(item);
+            }
 
             // 1. 3,1,0,2,4
 
@@ -35,20 +37,28 @@
             //}
 
 
+            //for (int i = 0; i < myArray.Length; i++)
+            //{
+            //    int first = myArray[i];
+            //    for (int j = i+1; j < myArray.Length; j++)
+            //    {
+            //        int next = myArray[j];
+            //        if (first.CompareTo(next)>0)
+            //        {
+            //            (myArray[i], myArray[j]) = (myArray[j], myArray[i]);
+            //        }
+            //    }
+            //}
+
+
+            //for (int i = 0; i < myArray.Length; i++)
+            //{
+            //    Console.WriteLine(myArray[i]);
+            //}
 
 
 
-            for (int i = 0; i < myArray.Length; i++)
-            {
-                Console.WriteLine(myArray[i]);
-            }
 
-            (int a, int b) = (5, 3);
-
-            SelectionSort.Sort(myArray);
-
-            var result = BubbleSort.MyMethod();
-            result.
         }
     }
 }
