@@ -1,4 +1,6 @@
 ﻿
+using ClassAndClassMembers.Examples;
+
 class MyClass1
 {
 
@@ -26,17 +28,64 @@ namespace ClassAndClassMembers
             //human.Age = 30;
             //Console.WriteLine(human.Age);
 
-            Car car = new Car()
-            {
-                ProductionYear = 1,
-                WheelCount = 4
-            };
+            //Car car = new Car()
+            //{
+            //    ProductionYear = 1,
+            //    WheelCount = 4
+            //};
 
-            Console.WriteLine(decimal.Parse(car.Color));
+            //Console.WriteLine(decimal.Parse(car.Color));
 
             //car.ProductionYear = 1;
             //car.WheelCount = 4;
             //car.Color = "Black";
+
+            //Test();
+
+
+            //// Trigger garbage collection (note that this is not deterministic).
+            //GC.Collect();
+
+            //// Wait for pending finalizers (destructors) to execute.
+            //GC.WaitForPendingFinalizers();
+
+            //// Keep the program running to observe the destructor output.
+            //Console.ReadLine();
+
+            //var x = new Lesson(1, 2);
+
+            //(int a, int b) = x;
+            //Console.WriteLine(a);
+            //Console.WriteLine(b);
+
+            //var student = new Student(25, "Mirza");
+            ////string studentName = student.Name;
+            ////int studentAge = student.Age;
+            //(int age, string name) = student;
+
+            //Student student = new Student(5,"aa");
+            //Student student1 = new Student();
+            //Student student2 = new Student();
+            //Student student3 = new Student();
+            //Student student4 = new Student();
+
+            //Console.WriteLine(Student.MyName);
+            //Console.WriteLine(Student.MyName);
+            //Console.WriteLine(Student.MyName);
+
+            A a = new A();
+            B b = new B();
+
+            a.Main();
+            b.Main();
+
+
+
+        }
+
+        static void Test()
+        {
+            new Lesson();
         }
     }
 
@@ -156,9 +205,16 @@ namespace ClassAndClassMembers
 
         private string str;
 
-        public  int this[int a]
+        public  int this[int a,string key]
         {
+            get
+            {
+                return a;
+            }
+            set
+            {
 
+            }
         }
 
         public void Test(string str)
