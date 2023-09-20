@@ -4,13 +4,26 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //Console.WriteLine("Hello, World!");
 
-            Teacher teacher = new Teacher();
-            teacher.Talk();
+            //Teacher teacher = new Teacher();
+            //teacher.Talk();
 
-            Student student = new(); // => c# 9.0 target typed new expression
-            student.Talk();
+            //Student student = new(); // => c# 9.0 target typed new expression
+            //student.Talk();
+
+            //string x = "salam";
+            //string y = "salam";
+
+            //string z = y;
+            //y = "1";
+
+            //Human human = new Human();
+            //Human human1 = human;
+
+            //bool result = human == human1;
+
+            //Console.WriteLine(result);
         }
     }
 
@@ -29,7 +42,7 @@
         {
             ///
             Console.WriteLine("Teacher talks");
-            
+
         }
     }
 
