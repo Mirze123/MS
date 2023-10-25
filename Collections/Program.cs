@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            List<string> cities = new List<string>() 
-            { 
-                "Baki","Gence","Sumqayit","Qazax","Quba","Qusar",
-                "Agdash","Xachmaz",
-                "Tovuz"
+            //List<string> cities = new List<string>() 
+            //{ 
+            //    "Baki","Gence","Sumqayit","Qazax","Quba","Qusar",
+            //    "Agdash","Xachmaz",
+            //    "Tovuz"
             
-            };
+            //};
 
             //string[] countries = new string[3]
             //{
@@ -125,8 +125,23 @@
 
             //Console.WriteLine(intList.Capacity);
 
-           var result =  cities.Skip(3).Take(3).ToList();
+           //var result =  cities.Skip(3).Take(3).ToList();
 
+            MyFirstCollection<int> ints = new MyFirstCollection<int>();
+            ints.Add(1);
+            ints.Add(2);
+            ints.Add(3);
+            ints.Add(4);
+            ints.Add(5);
+
+            Console.WriteLine(ints.Count);
+
+            foreach (var item in ints)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.ReadLine();
 
 
 

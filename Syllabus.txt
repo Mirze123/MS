@@ -83,3 +83,109 @@ Dərs – 5 - try-catch mexanizması və exception-handling
 5)try-finally statement
 6)try-catch-finally statement
 7)Exception sinifi ilə tanışlıq
+
+
+
+Modul 2. (OOP)
+
+Dərs – 1 – OOP-yə giriş.OOP nədir, Class anlayışı.Class nədir.Class memberlər haqqında nəzəri məlumatlar
+1)OOP haqqında nəzəri məlumatlar
+2)Class nədir? Nə üçün istifadə olunur
+3) Referans type-lara yenidən istinad
+4) Declaring Class
+5) new keyword
+6) Obyekt yaratmaq
+
+
+Dərs – 2- Fields and Properties.Encapsulation,İndexers
+1)Field nədir?
+2)Getter və setter məntiqini başa düşmək
+3)Property nədir
+4)Background fields nədir?
+5)Encapsulation nəzəri və praktiki
+6) İndexer barədə nəzəri və praktiki məlumat.Array-lərə istinad
+
+Dərs – 3 - Constructor nədir,Destructor nədir,DeConstructor nədir
+1)Constructor nədir? Object initialize və praktiki iş
+2)Destructor nəzəri və praktiki
+3)Deconstructor nəzəri və praktiki
+4) Static constructor nəzəri və praktiki
+5) Constructorlar üzərində kritik nüanslar və caselər
+
+Dərs – 4 - Static keywordu-nədir,Static member-lər və praktiki yanaşmalar
+1)	Static keywordu nədir?
+2)	Static classlar
+3)	Static memberlər
+4)	Static methodlar
+5)	Praktiki yanaşmalar
+
+Dərs – 5 - try-catch mexanizması və exception-handling
+1)throw keywordu nədir?
+2)try catch bloku
+3)catch bloku ilə xətaları handle etmə
+4) when exception filter
+5)try-finally statement
+6)try-catch-finally statement
+7)Exception sinifi ilə tanışlıq
+
+Dərs – 6 - Struct nədir? Struct üzərindən praktiki yanaşmalar.Class ilə struct arasındakı fərqlər
+1)Struct nədir?
+2)readonly structlar
+3)readonly instance memberlər
+4)Nondestructive mutation nədir?
+5) Struct initialization and default values
+6)Conversions
+
+Dərs – 7 - İnheritance nədir.İnheritance-aid praktiki yanaşmalar
+1)İnheritance məntiqini nəzəri olaraq anlamaq
+2)Base class nədir?
+3) Derived class nədir?
+4) İnheritance chain
+5) İnheritance-da kritik nöqtələr
+6) Keçilənlər üzərində praktiki saat
+
+Dərs – 8 - Abstract classlar və abstract keywordu, Polimorfizm nədir? Virtual keyword.Metod overriding.Dinamik və statik polimorfizm
+1)	Abstract class nədir?
+2)	Abstract keywordu nədir və necə istifadə olunur
+3)	Abstract keywordu ilə metod declare edilməsi
+4)	Abstract classlar ilə inheritance məntiqi
+5)	Polimorfizm nədir?
+6)	Virtual keywordu nədir və necə istifadə olunur
+7)	Metod overriding nədir?
+8)	Dinamik və statik polimorfizm barədə məlumatlar
+
+Dərs – 9 - Interface anlayışı
+1)	İnterface nədir
+2)	Interface implementation
+3)	Implicit implementation
+4)	Explicit implementation
+5)	Interface-lər ilə praktiki iş
+Dərs – 10 - Keçilənlər əsasında test imtahanı və testin müzakirəsi
+
+Dərs – 11 - Enumerationlar nədir və iteratorlar barədə nəzəri və praktiki məlumatlar, Collection namespace-i.Generic nədir? Generic inşalar barədə məlumat.Generic collectionlar
+
+1)	Enumeration nədir?
+2)	IEnumerable interface -i ilə tanışlıq
+3)	Collection nədir?
+4)	Collectionun növləri
+5)	Implementing a Collection of Key/Value Pairs
+6)	İteration nədir?
+7)	Foreach nədir və necə istifadə olunur
+8)	Generic anlayışı nədir?
+9)	Generic collectionlar
+
+Dərs – 12 - Delegate və Eventlər
+1)Delegate haqqında nəzəri məlumatlar
+2) Delegates with Named vs. Anonymous Methods
+3) Delegate-lərin declarə edilməsi və istifadəsi
+4)Eventlər haqqında nəzəri məlumatlar
+5) Events subscribe və unsubscribe
+6) Publish events
+7) İnterface events
+
+Dərs – 13 - LİNQ nədir və necə istifadə olunur.Lambda expressionlar
+1)LİNQ nədir?
+2)Query.Query Execution.Deferred execution. Forcing Immediate Execution
+3)Query expression
+4) Lambda expression
+
